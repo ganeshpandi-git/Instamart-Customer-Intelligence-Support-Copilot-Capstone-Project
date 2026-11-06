@@ -47,7 +47,7 @@ Safety demo verification: Token limits and timeouts successfully triggered safe 
 
 Crash-and-resume test successfully saved checkpoints to state/ and resumed execution seamlessly
 
-## Future Outlook & Strategic Roadmap
+## Limitations and Next steps:
 
 - **Insights & Design Highlights:** The customer retention framework leverages rich, whole-window behavioral insights (including September data) to provide a comprehensive view of customer lifetime value, offering highly actionable targeting strategies for marketing teams.
 - **Exciting Next Steps:** To scale this platform even further, we are planning several exciting enhancements:
