@@ -1,0 +1,128 @@
+[
+    {
+        "file_name": "agent_scenarios.csv",
+        "total_rows": 7,
+        "total_columns": 5,
+        "columns": [
+            "scenario_id",
+            "customer_id",
+            "message",
+            "expected_outcome",
+            "expected_refund_inr"
+        ],
+        "missing_values": {
+            "scenario_id": 0,
+            "customer_id": 0,
+            "message": 0,
+            "expected_outcome": 0,
+            "expected_refund_inr": 0
+        },
+        "exact_duplicate_rows": 0
+    },
+    {
+        "file_name": "customers.csv",
+        "total_rows": 1200,
+        "total_columns": 5,
+        "columns": [
+            "customer_id",
+            "city",
+            "signup_date",
+            "age",
+            "gender"
+        ],
+        "missing_values": {
+            "customer_id": 0,
+            "city": 0,
+            "signup_date": 0,
+            "age": 61,
+            "gender": 30
+        },
+        "exact_duplicate_rows": 0,
+        "invalid_ages": 6
+    },
+    {
+        "file_name": "orders.csv",
+        "total_rows": 13084,
+        "total_columns": 9,
+        "columns": [
+            "order_id",
+            "customer_id",
+            "product_id",
+            "quantity",
+            "order_ts",
+            "status",
+            "discount_pct",
+            "order_amount",
+            "delivery_minutes"
+        ],
+        "missing_values": {
+            "order_id": 0,
+            "customer_id": 0,
+            "product_id": 0,
+            "quantity": 0,
+            "order_ts": 0,
+            "status": 0,
+            "discount_pct": 0,
+            "order_amount": 53,
+            "delivery_minutes": 2541
+        },
+        "exact_duplicate_rows": 119,
+        "duplicate_order_id_rows": 1547,
+        "negative_delivery_times": 106,
+        "unparseable_order_amounts": 67
+    },
+    {
+        "file_name": "policy_eval.csv",
+        "total_rows": 14,
+        "total_columns": 3,
+        "columns": [
+            "question",
+            "expected_doc",
+            "expected_fact"
+        ],
+        "missing_values": {
+            "question": 0,
+            "expected_doc": 0,
+            "expected_fact": 2
+        },
+        "exact_duplicate_rows": 0
+    },
+    {
+        "file_name": "products.csv",
+        "total_rows": 40,
+        "total_columns": 4,
+        "columns": [
+            "product_id",
+            "product_name",
+            "category",
+            "price_inr"
+        ],
+        "missing_values": {
+            "product_id": 0,
+            "product_name": 0,
+            "category": 0,
+            "price_inr": 0
+        },
+        "exact_duplicate_rows": 0
+    },
+    {
+        "file_name": "tickets.csv",
+        "total_rows": 164,
+        "total_columns": 5,
+        "columns": [
+            "ticket_id",
+            "customer_id",
+            "order_id",
+            "text",
+            "true_category"
+        ],
+        "missing_values": {
+            "ticket_id": 0,
+            "customer_id": 0,
+            "order_id": 8,
+            "text": 4,
+            "true_category": 0
+        },
+        "exact_duplicate_rows": 0
+    }
+]
